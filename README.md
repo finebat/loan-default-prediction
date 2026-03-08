@@ -1,2 +1,4 @@
 # loan-default-prediction
-Predictive modeling of loan default risk using Python and logistic regression.
+This project explores how predictive modeling can be used to predict loan approval outcomes based on applicant information. Using a dataset of about 600+ loan applications, the data was first cleaned and prepared in Python by handling missing values, encoding categorical variables, and scaling numerical features. Class imbalance in the dataset was addressed to ensure the model learned patterns from both approved and rejected applications.
+
+After preprocessing, a Logistic Regression model was trained to classify whether a loan application would likely be approved or not. The model achieved 80% accuracy on unseen test data and produced an AUC score of 0.85, indicating strong ability to distinguish between approval outcomes. Model performance was evaluated using a confusion matrix and ROC curve to better understand prediction reliability and classification behavior. This workflow demonstrates how structured preprocessing and supervised learning can be applied to analyze loan application data and support data driven decision making in financial contexts.
